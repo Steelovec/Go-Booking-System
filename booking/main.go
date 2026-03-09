@@ -16,6 +16,9 @@ func main(){
 	fmt.Printf("We have total of %v tickets and %v tickets are remaining. \n", conferenceTickets, remainingTickets)
 	fmt.Println("Get your tickets here!")
 
+	// its fixed, u cant mix the types like ints or strings,...
+	var bookings = [50]string{"Nana", "Nicola", "Peter"}
+
 	// gives the var a data type
 	var firstName string
 	var lastName string
